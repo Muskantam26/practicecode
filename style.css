@@ -7,7 +7,7 @@
 
 
 
-#navbar{
+/* #navbar{
     display: flex;
     justify-content:center;
     gap: 60px;
@@ -29,6 +29,32 @@
     border: 1px solid black;
 
 }
+ */
 
+
+ #toppart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+ }
+ #toppart img{
+    width: 50px;
+    margin: 10px;
+
+ }
+ #toppart nav ul {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+ }
+ #toppart nav ul li a{
+    text-decoration: none;
+    color: brown;
+ }
+
+ #toppart button{
+    margin: 20px;
+ }
 
 
